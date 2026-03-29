@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fffe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    background: linear-gradient(135deg, #a8edea, #fbc2eb);
+    text-align: center;
+    padding: 70px 20px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* main layout */
+main {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* sections */
+section {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    border: 1px solid #f0f0f0;
+}
+
+/* headings */
+h2 {
+    color: #ff8fb1;
+    margin-bottom: 10px;
+}
+
+/* text */
+p {
+    line-height: 1.7;
+}
+
+/* images */
+img {
+    width: 100%;
+    border-radius: 14px;
+    margin-top: 15px;
+}
+
+/* cute divider */
+section::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #a8edea, #fbc2eb);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+section:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
