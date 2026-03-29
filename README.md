@@ -1,2 +1,2 @@
 # dcda-final-project
-Mock neck trend projec
+Mock neck trend project
