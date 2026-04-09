@@ -76,3 +76,119 @@ section:hover {
     transform: translateY(-5px);
     transition: 0.3s ease;
 }
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.brand-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.brand-card {
+  position: relative;
+  border-radius: 15px;
+  padding: 20px;
+  background: white;
+}
+
+.brand-card img {
+  width: 100%;
+  max-width: 260px;
+  height: 260px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 143, 177, 0.85);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.brand-card:hover .overlay {
+  opacity: 1;
+}
+
+/* overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 143, 177, 0.85); /* pink overlay */
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    transition: opacity 0.3s ease;
+}
+
+/* hover effect */
+.brand-card:hover .overlay {
+    opacity: 1;
+}
+.image-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.image-wrap img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  display: block;
+}
+
+/* overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 143, 177, 0.9); /* your pink */
+  color: white;
+  opacity: 0;
+  transition: 0.3s ease;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.image-wrap:hover .overlay {
+  opacity: 1;
+}
+
+/* make text cute */
+.overlay h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.overlay p {
+  font-size: 0.9rem;
+}
