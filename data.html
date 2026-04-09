@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mock Neck Trend Project | Data</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Story</a>
+    <a href="data.html">Data</a>
+  </nav>
+
+  <header>
+    <h1>What the Data Shows</h1>
+    <p>visualizing mock neck TikTok engagement</p>
+  </header>
+
+  <main>
+    <section class="data-section">
+      <h2>6. TikTok Data Visualizations</h2>
+      <p class="section-intro">
+        To better understand how the mock neck trend performs on TikTok, we analyzed two scraped datasets: one focused on general mock neck content and one focused specifically on PARKE-related posts. These visuals highlight patterns in engagement and caption language to show how the trend spreads and what kinds of posts perform best.
+      </p>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h3>Average Engagement by Dataset</h3>
+          <canvas id="engagementChart"></canvas>
+          <p class="chart-note">
+            This chart compares the average views, likes, and comments across general mock neck TikToks and PARKE-specific TikToks.
+          </p>
+        </div>
+
+        <div class="chart-card">
+          <h3>Most Common Caption Themes</h3>
+          <canvas id="themeChart"></canvas>
+          <p class="chart-note">
+            These themes show the kinds of words and reactions that appear most often in mock neck TikTok captions.
+          </p>
+        </div>
+      </div>
+
+      <div class="chart-card full-width">
+        <h3>Top 10 TikToks by Views</h3>
+        <canvas id="topPostsChart"></canvas>
+        <p class="chart-note">
+          This chart highlights the highest-viewed posts across both datasets to show which types of mock neck videos performed best.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
