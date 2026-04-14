@@ -306,3 +306,26 @@ async function initCharts() {
 }
 
 initCharts();
+
+// Engagement Rate Chart
+const engagementRateChart = new Chart(
+  document.getElementById("engagementRateChart"),
+  {
+    type: "bar",
+    data: {
+      labels: ["Likes/View", "Comments/View"],
+      datasets: [
+        {
+          label: "Mockneck General",
+          data: [0.08, 0.01], // adjust if you want
+          backgroundColor: "#a8edea"
+        },
+        {
+          label: "PARKE Specific",
+          data: [0.12, 0.015], // adjust if you want
+          backgroundColor: "#fbc2eb"
+        }
+      ]
+    }
+  }
+);
