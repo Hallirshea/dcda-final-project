@@ -258,3 +258,7 @@ nav a:hover {
 .top-nav a:hover {
   opacity: 0.6;
 }
+
+section:last-of-type {
+    border: 2px solid #fbc2eb;
+}
