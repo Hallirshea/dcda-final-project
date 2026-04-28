@@ -414,3 +414,47 @@ nav a {
 .example-card p {
     font-size: 0.95rem;
 }
+.works-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.works-container h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.works-list p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.works-list a {
+  color: #d97ca4;
+  word-break: break-word;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 50px;
+}
+.works-card {
+  background: #fffafc;
+  border: 2px solid #f3b6d3;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.works-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
