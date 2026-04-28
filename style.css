@@ -407,3 +407,10 @@ nav a {
 .example-card p {
     font-size: 0.95rem;
 }
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 40px;
+  padding: 20px 0;
+}
